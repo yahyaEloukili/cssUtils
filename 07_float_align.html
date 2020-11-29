@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Float & Align</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    .container {
+      max-width: 960px;
+      margin: 30px auto;
+    }
+
+    .box {
+      border: black 1px solid;
+      margin-bottom: 20px;
+      padding: 20px;
+      background-color: #f4f4f4;
+
+    }
+
+    .box p {
+      text-align: center;
+    }
+
+    #box-2 {
+      float: left;
+      width: 68%;
+    }
+
+    #box-3 {
+      float: right;
+      width: 30%;
+    }
+
+    .clr {
+      clear: both;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+
+
+    <div class="box" id="box-1">
+      <h3>Box one</h3>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus aliquam officia, officiis perferendis
+        iusto
+        maxime eum. Iure commodi reprehenderit facilis?</p>
+    </div>
+    <div class="box" id="box-2">
+      <h3>Box two</h3>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus aliquam officia, officiis perferendis
+        iusto
+        maxime eum. Iure commodi reprehenderit facilis?</p>
+    </div>
+    <div class="box" id="box-3">
+      <h3>Box two</h3>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus aliquam officia, officiis perferendis
+        iusto
+        maxime eum. Iure commodi reprehenderit facilis?</p>
+    </div>
+    <div class="clr"></div>
+    <div class="box" id="box-4">
+      <h3>Box two</h3>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus aliquam officia, officiis perferendis
+        iusto
+        maxime eum. Iure commodi reprehenderit facilis?</p>
+    </div>
+  </div>
+</body>
+
+</html>
